@@ -1,0 +1,40 @@
+/*------------------------------------*\
+   =DEFAULTS 
+\*------------------------------------*/    
+    
+    @charset "utf-8";
+    
+    html {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	*, *:before, *:after {
+		-webkit-box-sizing: inherit;
+		-moz-box-sizing: inherit;
+		box-sizing: inherit;
+	}	
+    
+    body {		
+		overflow-x: hidden;
+	}  
+    
+    a:active  {
+		transition: color .3s;
+	}
+    
+    ::-moz-selection { 
+        background: $color-background;
+        color: #FFF;
+    }
+    
+    ::selection { 
+        background: $color-background;
+        color: #FFF;
+    }
+    
+    .screen-reader-text {
+        display: none;
+        visibility: hidden;
+    }

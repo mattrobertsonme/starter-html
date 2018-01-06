@@ -1,0 +1,53 @@
+/* -----------------------------------------------------------------------------
+    
+    =NAVIGATION
+  
+----------------------------------------------------------------------------- */
+    
+    /*------------------------------------*\
+       =BREADCRUMBS 
+    \*------------------------------------*/
+    
+    ul.breadcrumb {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+    }
+    
+    /*------------------------------------*\
+       =PAGINATION 
+    \*------------------------------------*/
+    
+    ul.pagination {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+    }
+    
+    /*------------------------------------*\
+       =PILLS 
+    \*------------------------------------*/
+    
+    nav.pills {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+    }
+    
+    /*------------------------------------*\
+       =TABS 
+    \*------------------------------------*/
+    
+    nav.tabs {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+    }

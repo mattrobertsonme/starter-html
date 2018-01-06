@@ -1,0 +1,14 @@
+/* -----------------------------------------------------------------------------
+    
+    =PAGE WITH RIGHT SIDEBAR
+  
+----------------------------------------------------------------------------- */
+    
+    body.page-template-page-right-sidebar {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+    }
+

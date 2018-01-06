@@ -1,0 +1,83 @@
+/* -----------------------------------------------------------------------------
+    
+    =ERROR 404
+  
+----------------------------------------------------------------------------- */
+    
+    body.error404 {        
+        section.error-404 {            
+            @include flex-direction-column;
+            @include flex-justify-center; 
+            @include flex-align-center; 
+            
+            padding: 0;
+            
+            &.has-image {
+                color: #FFF;
+                text-shadow: 1px 1px 0 #000;
+            }
+            
+            button {
+                border: none;
+                border-radius: 5px;
+                color: #FFF;
+                font-size: 20px;
+                padding: 10px 20px;
+            }
+            
+            .container {
+                position: relative;
+                z-index: 1000;
+            }
+        }
+        
+        section.has-image::after {
+            content:"";
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 450;
+            background-color: rgba(0, 0, 0, .6);
+        }
+        
+        img {
+            border-radius: 50%;
+            height: 250px;
+            margin: 0;
+            width: 250px;
+        }
+        
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        form {
+            input.search-field {
+                border: 1px solid #CCC;
+                border-radius: 5px 0 0 5px;
+                font-size: 20px;
+                font-weight: 400;
+                padding: 10px 20px;
+            }
+            
+            input.search-submit {
+                background-color: $color-primary;
+                background-image: none;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                color: white;
+                font-size: 20px;
+                margin: 0;
+                margin-left: -4px;
+                padding: 11px 20px;
+            }
+        }
+    }

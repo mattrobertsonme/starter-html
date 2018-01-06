@@ -1,0 +1,55 @@
+/* -----------------------------------------------------------------------------
+    
+    =SINGLE POST
+  
+----------------------------------------------------------------------------- */
+    
+    body.single-post {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+        
+        header.entry-header {            
+            .entry-meta {                
+                span {                    
+                    a {
+                        
+                    }
+                    
+                    &.posted-on {
+                        
+                    }
+                    
+                    &.byline {
+                        
+                    }
+                }
+            }
+        }
+        
+        .entry-content {
+            
+        } 
+        
+        footer.entry-footer {            
+            span {
+                a {
+                    
+                }
+                
+                &.cat-links {
+                    
+                }
+                
+                &.tags-links {
+                    
+                }
+                
+                &.edit-link {
+                    
+                }
+            }
+        }
+    }

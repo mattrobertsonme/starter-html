@@ -1,0 +1,51 @@
+/*------------------------------------------------------------------------------
+    
+    =TYPOGRAPHY 
+  
+----------------------------------------------------------------------------- */
+    
+    body {
+        color: $color-primary;
+        font-family: $font-body;
+        
+        @include media-360 {
+            color: red;
+        }
+        
+        @include media-480 {
+            color: aqua;
+        }
+        
+        @include media-768 {
+            color: orange;
+        }
+        
+        @include media-1024 {
+            color: pink;
+        }
+        
+        @include media-1280 {
+            color: green;
+        }
+        
+        @include media-1366 {
+            color: tan;
+        }
+        
+        @include media-1680 {
+            color: palegoldenrod;
+        }
+        
+        @include media-1920 {
+            color: black;
+        }
+    }
+    
+    button, input {
+        font-family: $font-body;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $font-headings;
+    }
+    

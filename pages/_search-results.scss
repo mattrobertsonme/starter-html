@@ -1,0 +1,42 @@
+/* -----------------------------------------------------------------------------
+    
+    =SEARCH RESULTS
+  
+----------------------------------------------------------------------------- */
+    
+    body.search-results {  
+        article {
+            border: none;
+            float: left;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            padding: 5px 40px 5px 0;
+            width: 100%;
+        }
+        
+        .entry-summary {
+            padding-left: 0;
+        }
+        
+        .entry-title {
+            color: #075290;
+            font-size: 20px;
+            margin: 0 0 10px 0;
+            overflow: hidden;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .entry-url {
+            color: #006800;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        p {
+            margin-top: 5px;
+        }
+    }

@@ -1,0 +1,14 @@
+/* -----------------------------------------------------------------------------
+    
+    =PAGE WITH LEFT SIDEBAR
+  
+----------------------------------------------------------------------------- */
+    
+    body.page-template-page-left-sidebar {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+    }
+

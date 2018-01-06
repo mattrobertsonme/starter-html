@@ -1,0 +1,14 @@
+/* -----------------------------------------------------------------------------
+    
+    =PAGE WITH BOTH SIDEBARS
+  
+----------------------------------------------------------------------------- */
+    
+    body.page-template-page-both-sidebars {
+        // background-color: $color-primary;
+        
+        @include media-768 {
+            // background-color:  orange;
+        }
+    }
+
