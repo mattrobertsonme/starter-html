@@ -1,0 +1,34 @@
+/* -----------------------------------------------------------------------------
+    
+    =IMPORTS
+  
+----------------------------------------------------------------------------- */
+    
+    @import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Montserrat:700|Playfair+Display:700|Ruda:800");
+    
+    
+/* -----------------------------------------------------------------------------
+    
+    =TYPOGRAPHY
+  
+----------------------------------------------------------------------------- */
+    
+   body, button, input {
+        font-family: "Hind",Helvetica,sans-serif,"Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif;
+    }
+    
+    h1,h2,h3,h4,h5,h6, .logo, .navbar-brand {
+        font-family: "Playfair Display",Helvetica,sans-serif;
+        font-family: "Montserrat",Helvetica,sans-serif;
+        font-family: "Ruda",Helvetica,sans-serif;
+        font-weight: 800;
+    }
+    
+/* -----------------------------------------------------------------------------
+    
+    =COLOURS
+  
+----------------------------------------------------------------------------- */
+    
+    
+    
