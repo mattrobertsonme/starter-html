@@ -1,0 +1,68 @@
+/* -----------------------------------------------------------------------------
+    
+    =IMPORTS
+  
+----------------------------------------------------------------------------- */
+    
+    @import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Montserrat:700|Playfair+Display:700|Ruda:800");
+    
+/* -----------------------------------------------------------------------------
+    
+    =TYPOGRAPHY
+  
+----------------------------------------------------------------------------- */
+    
+    body, button, input {
+        font-family: "Hind",Helvetica,sans-serif,"Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif;
+    }
+    
+    h1,h2,h3,h4,h5,h6, .logo, .navbar-brand {
+        font-family: "Playfair Display",Helvetica,sans-serif;
+        font-family: "Montserrat",Helvetica,sans-serif;
+        font-family: "Ruda",Helvetica,sans-serif;
+        font-weight: 800;
+    }
+    
+/* -----------------------------------------------------------------------------
+    
+    =COLOURS
+  
+----------------------------------------------------------------------------- */
+    
+    nav.navbar.navbar-default, 
+    .jumbotron {
+        background-color: #333;
+        background-color: #4E4A59;
+    }
+    
+    .section-divider-1 {
+        background: linear-gradient(to bottom right, #333 49%, #FFF 50%);
+        background: linear-gradient(to bottom right, #4E4A59 49%, #FFF 50%);
+    }  
+    
+    .section-divider-2 {
+        background: linear-gradient(to bottom left, #333 49%, #FFF 50%);
+        background: linear-gradient(to bottom left, #4E4A59 49%, #FFF 50%);
+    } 
+    
+    .section-divider-3 {
+        background: linear-gradient(to top left, #333 49%, #FFF 50%);
+        background: linear-gradient(to top left, #4E4A59 49%, #FFF 50%);
+    }
+    
+    .section-divider-4 {
+        background: linear-gradient(to top right, #333 49%, #FFF 50%);
+        background: linear-gradient(to top right, #4E4A59 49%, #FFF 50%);
+    }
+    
+    nav.navbar.navbar-default a.navbar-brand {
+        color: #FFF;
+    }
+    
+    header.top-bar {
+        background-color: #333;
+        background-color: #4E4A59;
+        border-bottom-color: #444;
+        border-bottom-color: #64626B;
+        color: #FFF;
+    }
